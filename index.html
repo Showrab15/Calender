@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+
+
+<!-- CSS STYLES START SHEETS -->
+    
+    <style>
+   *{
+    margin: 0;
+    padding: 0;
+    }
+
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr) ;
+    grid-template-rows: 30px repeat(5, 75px);
+    row-gap: 20px;
+    column-gap: 10px;
+    width: 55%;
+    height: 80%;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    border-radius: 10px solid;
+    }
+
+.date{
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px ;
+ 
+    }
+
+.day{  
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    border-radius: 5px;
+    }
+
+ header{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.title{
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    }
+
+.day:hover{
+    background-color: chocolate;
+    }
+
+.date:hover{
+    background-color: blueviolet;
+    }
+</style>
+
+</head>
+<body>
+<header>
+<h3 class="title">January 2023</h3>
+<div class="calender">
+<div class="day">SUN</div>
+<div class="day">MON</div>
+<div class="day">TUE</div>
+<div class="day">WED</div>
+<div class="day">TUE</div>
+<div class="day">FRI</div>
+<div class="day">SAT</div>
+<div class="date other-month">30</div>
+<div class="date other-month">31</div>
+<div class="date">1</div>
+<div class="date">2</div>
+<div class="date">3</div>
+<div class="date">4</div>
+<div class="date">5</div>
+<div class="date">6</div>
+<div class="date">7</div>
+<div class="date">8</div>
+<div class="date">9</div>
+<div class="date">10</div>
+<div class="date">11</div>
+<div class="date">12</div>
+<div class="date">13</div>
+<div class="date">14</div>
+<div class="date">15</div>
+<div class="date">16</div>
+<div class="date">17</div>
+<div class="date">18</div>
+<div class="date">19</div>
+<div class="date">20</div>
+<div class="date">21</div>
+<div class="date">22</div>
+<div class="date">23</div>
+<div class="date">24</div>
+<div class="date">25</div>
+<div class="date">26</div>
+<div class="date">27</div>
+<div class="date">28</div>
+<div class="date">29</div>
+<div class="date">30</div>
+<div class="date other-month">1</div>
+<div class="date other-month">2</div>
+<div class="date other-month">3</div>
+</div>
+</header>
+</body>
+</html>
