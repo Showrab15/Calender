@@ -8,9 +8,10 @@
 
 
 <!-- CSS STYLES START SHEETS -->
-    
+   
     <style>
-   *{
+      
+            *{
     margin: 0;
     padding: 0;
     }
@@ -78,6 +79,71 @@
    
  
     }
+    @media  only screen and (min-width: 320px;) and (max-width:480px;){
+       
+            
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr) ;
+    grid-template-rows: 30px repeat(5, 75px);
+    row-gap: 20px;
+    column-gap: 10px;
+   
+    }
+
+.date{
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px ;
+ 
+    }
+
+.day{  
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    border-radius: 5px;
+    }
+
+ header{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    }
+
+.title{
+   text-align: center;
+   display: flex;
+    font-size: 20px;
+    justify-content: center;
+   margin: 15px;
+    }
+
+.day:hover{
+    background-color: chocolate;
+    }
+
+.date:hover{
+    background-color: blueviolet;
+    }
+
+
+    .box{
+        width: 55%;
+    height: 85%;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    border-radius: 5px solid;
+    padding: 25px;
+    }
+}
 </style>
 
 </head>
